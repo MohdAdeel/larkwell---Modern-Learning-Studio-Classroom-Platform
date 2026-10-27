@@ -1,0 +1,12 @@
+export const instant = false;
+
+import type { Metadata } from "next";
+import { MyCourses } from "@/features/learning/learning-views";
+
+export const metadata: Metadata = { title: "My courses" };
+
+export default function Page() {
+  return (
+    <MyCourses />
+  );
+}
